@@ -1,5 +1,5 @@
 import { IUser, UserModel } from '../models/user';
-import { ISubject, SubjectModel } from '../models/subject';
+
 
 
 export class UserService {

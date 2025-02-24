@@ -2,15 +2,13 @@ import { Request, Response } from 'express';
 import { IUser } from '../models/user';
 import { UserService } from '../services/user.service';
 // para las funciones de addSubjectToUser
-import { SubjectService } from '../services/subject.service';
-import { ISubject } from '../models/subject';
 import { ObjectId } from 'mongoose';
 
 
 
 
 const userService = new UserService();
-const subjectService = new SubjectService();
+
 
 /**
  * @swagger
